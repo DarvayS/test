@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-12-21T09:33:29.016Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 YaBrowser/22.11.0.2468 Yowser/2.5 Safari/537.36" etag="uCdOycl4js6fyS1YRrR-" version="20.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-21T12:05:03.992Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 YaBrowser/22.11.0.2468 Yowser/2.5 Safari/537.36" etag="IiO_fuVnfbsg97eSawuz" version="20.7.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="954" dy="627" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1949" dy="738" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -26,8 +26,8 @@
             <mxPoint y="-12" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WIyWlLk6GJQsqaUBKTNV-6" value="Биллинг за отрисовку?" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;direction=west;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="170" y="287.5" width="100" height="92.5" as="geometry" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-6" value="Биллинг на хите за отрисовку?" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;direction=west;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="170" y="280" width="100" height="102.5" as="geometry" />
         </mxCell>
         <mxCell id="2sAaZkd2MSDt4CEduPBy-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-10" target="WIyWlLk6GJQsqaUBKTNV-6">
           <mxGeometry relative="1" as="geometry" />
@@ -72,7 +72,14 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="2sAaZkd2MSDt4CEduPBy-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="2sAaZkd2MSDt4CEduPBy-23" target="2sAaZkd2MSDt4CEduPBy-31">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2sAaZkd2MSDt4CEduPBy-76" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="2sAaZkd2MSDt4CEduPBy-75">
+          <mxGeometry x="-0.4149" y="-2" relative="1" as="geometry">
+            <mxPoint x="-7" y="-8" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="2sAaZkd2MSDt4CEduPBy-23" value="Аукцион приводим к eCPM?" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="364" y="690" width="100" height="100" as="geometry" />
@@ -80,20 +87,32 @@
         <mxCell id="2sAaZkd2MSDt4CEduPBy-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="2sAaZkd2MSDt4CEduPBy-27" target="2sAaZkd2MSDt4CEduPBy-29">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="2sAaZkd2MSDt4CEduPBy-27" value="Переводим ставку Директа из CPMV в eCPM" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="560" y="710" width="120" height="60" as="geometry" />
+        <mxCell id="2sAaZkd2MSDt4CEduPBy-27" value="Переводим ставку Директа к eCPM" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="559" y="710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2sAaZkd2MSDt4CEduPBy-78" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="2sAaZkd2MSDt4CEduPBy-29" target="2sAaZkd2MSDt4CEduPBy-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2sAaZkd2MSDt4CEduPBy-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="2sAaZkd2MSDt4CEduPBy-29" target="2sAaZkd2MSDt4CEduPBy-93">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="2sAaZkd2MSDt4CEduPBy-29" value="Проводим аукцион" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="560" y="820" width="120" height="30" as="geometry" />
+          <mxGeometry x="559" y="815" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2sAaZkd2MSDt4CEduPBy-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="2sAaZkd2MSDt4CEduPBy-31" target="2sAaZkd2MSDt4CEduPBy-34">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="2sAaZkd2MSDt4CEduPBy-31" value="Приводим ставку DSP из eCPM в CPMV" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="150" y="715" width="120" height="50" as="geometry" />
+        <mxCell id="2sAaZkd2MSDt4CEduPBy-31" value="Приводим ставку DSP к CPMV" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="155" y="715" width="119" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2sAaZkd2MSDt4CEduPBy-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="2sAaZkd2MSDt4CEduPBy-34" target="2sAaZkd2MSDt4CEduPBy-79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2sAaZkd2MSDt4CEduPBy-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="2sAaZkd2MSDt4CEduPBy-34" target="2sAaZkd2MSDt4CEduPBy-82">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="2sAaZkd2MSDt4CEduPBy-34" value="Проводим аукцион" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="150" y="820" width="120" height="30" as="geometry" />
+          <mxGeometry x="155" y="815" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2sAaZkd2MSDt4CEduPBy-63" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="2sAaZkd2MSDt4CEduPBy-51" target="2sAaZkd2MSDt4CEduPBy-62">
           <mxGeometry relative="1" as="geometry" />
@@ -113,17 +132,29 @@
             <mxPoint x="-17" y="-15" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2sAaZkd2MSDt4CEduPBy-51" value="Биллинг за отрисовку?" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;direction=west;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="510" y="147.5" width="100" height="92.5" as="geometry" />
+        <mxCell id="2sAaZkd2MSDt4CEduPBy-51" value="Биллинг на хите за отрисовку?" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;direction=west;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="510" y="142.5" width="100" height="102.5" as="geometry" />
         </mxCell>
         <mxCell id="2sAaZkd2MSDt4CEduPBy-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="2sAaZkd2MSDt4CEduPBy-62" target="2sAaZkd2MSDt4CEduPBy-65">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="2sAaZkd2MSDt4CEduPBy-62" value="Переводим порог для DSP из eCPM в CPMV деля на прогноз видимости" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="500" y="303.75" width="120" height="60" as="geometry" />
+          <mxGeometry x="500" y="301.25" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="2sAaZkd2MSDt4CEduPBy-65" value="Проводим текущий аукцион без изменений" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="330" y="303.75" width="120" height="60" as="geometry" />
+        <mxCell id="2sAaZkd2MSDt4CEduPBy-65" value="Проводим аукцион в текущем виде" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="330" y="301.25" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2sAaZkd2MSDt4CEduPBy-77" value="Биллингуем и DSP и паблишера по CT = 3" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="554" y="875" width="130" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="2sAaZkd2MSDt4CEduPBy-79" value="Биллингуем DSP по CT = 3, паблишера по CT = 1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="150" y="875" width="130" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="2sAaZkd2MSDt4CEduPBy-82" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Данные в логах для DSP: &lt;br&gt;&lt;b&gt;real price&lt;/b&gt; - ставка в eCPM, которую мы получили &lt;br&gt;в ответе и которую мы с них спишем, &lt;br&gt;если случится CT = 3&lt;br&gt;&lt;b&gt;price&lt;/b&gt; - ставка в приведенная к CPMV, &lt;br&gt;делением на процент видимости, используемая в аукционе&lt;br&gt;&lt;b&gt;partnerprice &lt;/b&gt;- price умноженная на partnershare - &lt;br&gt;деньги паблишера, начисляем за событие CT = 1&lt;br&gt;&lt;/font&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-384" y="760" width="510" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="2sAaZkd2MSDt4CEduPBy-93" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Данные в логах для DSP: &lt;br&gt;&lt;b&gt;real price&lt;/b&gt; - ставка в eCPM, которую мы получили &lt;br&gt;в ответе и которую мы с них спишем, &lt;br&gt;если случится CT = 3&lt;br&gt;&lt;b&gt;price&lt;/b&gt; - та же ставка DSP&lt;br&gt;&lt;b&gt;partnerprice &lt;/b&gt;- price умноженная на partnershare - &lt;br&gt;деньги паблишера, начисляем за событие CT = 3&lt;br&gt;&lt;/font&gt;" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="720" y="760" width="510" height="140" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
